@@ -1,24 +1,20 @@
-# README
+# APIモードを試す
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+マイクロサービスアーキテクチャへの理解を深めるため、railsをAPIモードで動かしてみる
 
-Things you may want to cover:
+## APIとは
+Application Programming Interface
 
-* Ruby version
+アプリケーションの窓口みたいなもの。APIを使うことで、アプリ側をブラックボックスのままデータのやり取りができる(apiを叩くとか言われる)
 
-* System dependencies
+参考
+https://qiita.com/NagaokaKenichi/items/df4c8455ab527aeacf02
 
-* Configuration
+## RailsをAPIモードで使う
 
-* Database creation
+`$ rails new アプリ名 --api`
 
-* Database initialization
+## JSONについて
+JavaScript Object Notation
+JSのオブジェクト(ハッシュ)と同じ文法で記述できるデータフォーマット
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
